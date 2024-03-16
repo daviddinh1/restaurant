@@ -2,8 +2,51 @@
  margin: 0;
  padding: 0;
  background-color: black;
+ font-family: Arial, Helvetica, sans-serif;
 }
 
 #content{
  display:flex;
+ justify-content: center;
+ align-items: center;
+ padding-top: 20px;
+ gap: 30px;
+}
+
+#text{
+ width: 200px;
+}
+
+nav{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: gray;
+ padding: 20px;
+ gap: 20px;
+}
+
+button{
+ color: white;
+ background-color: orange;
+ width: 200px;
+ height: auto;
+ border: 2px solid orange;
+}
+
+button:hover{
+  border: 2px solid lavender;
+ background-color: lavender;
+}
+
+.menu{
+ color: white;
+ display: flex;
+ justify-content: center;
+}
+
+#about{
+ font-size: 100px;
+ color: white;
+ width: 300px;
 }
